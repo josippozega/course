@@ -39,7 +39,7 @@ def main():
                    #'monkey', 'parrot', 'shark', 'whale', 'zebra']})
 
     if choice == "Početna":
-	st.subheader("Početna")
+	#st.subheader("Početna")
 	st.dataframe(df.head(10)
 	
     elif choice == "Preporuke":
