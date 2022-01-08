@@ -40,7 +40,7 @@ def main():
 
     if choice == "Početna":
         st.subheader("Početna")
-	df = pd.DataFrame(df.head(10))
+	df.head(10)
 	
     elif choice == "Preporuke":
         st.subheader == "Preporuka tečajeva"
