@@ -28,8 +28,17 @@ def main():
 
     menu=["Početna", "Preporuke", "O aplikaciji"]
     choice= st.sidebar.selectbox("Izbornik", menu)
-
+	
+    #making data frame
     df = load_data(udemy_course_data.csv)
+    #broj redaka
+    n=10
+    #kreiranje serije
+    series=data["Početna"]
+    #vraća 10 redaka
+    top = series.head(n = n)
+    #ispis
+    top
 
 	#if choice == "Home":
 		#st.subheader("Home")
@@ -39,8 +48,14 @@ def main():
                    #'monkey', 'parrot', 'shark', 'whale', 'zebra']})
 
     if choice == "Početna":
-	#st.subheader("Početna")
-	st.dataframe(df.head(10))
+	 #broj redaka
+   	 n=10
+   	 #kreiranje serije
+         series=data["Početna"]
+         #vraća 10 redaka
+         top = series.head(n = n)
+         #ispis
+         top
 	
     elif choice == "Preporuke":
         st.subheader == "Preporuka tečajeva"
