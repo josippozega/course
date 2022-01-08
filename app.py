@@ -6,13 +6,13 @@ import streamlit.components.v1 as stc
 def main():
     st.title("Aplikacija za ponudu tečaja by Josip Požega, prof.")
 
-    menu=["Početna", "Preporuke,", "O aplikaciji"]
+    menu=["Početna", "Preporuke", "O aplikaciji"]
     choice= st.sidebar.selectbox("Izbornik", menu)
 
 
     if choice == "Početna":
         st.subheader("Početna")
-    elif chice == "Preporuke":
+    elif choice == "Preporuke":
         st.subheader == "Preporuka tečajeva"
     else:
         st.subheader("O aplikaciji")
