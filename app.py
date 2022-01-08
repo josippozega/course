@@ -31,14 +31,7 @@ def main():
 	
     #making data frame
     df = load_data(udemy_course_data.csv)
-    #broj redaka
-    n=10
-    #kreiranje serije
-    series=data["Početna"]
-    #vraća 10 redaka
-    top = series.head(n = n)
-    #ispis
-    top
+ 	
 
 	#if choice == "Home":
 		#st.subheader("Home")
@@ -48,14 +41,8 @@ def main():
                    #'monkey', 'parrot', 'shark', 'whale', 'zebra']})
 
     if choice == "Početna":
-	 #broj redaka
-   	 n=10
-   	 #kreiranje serije
-         series=data["Početna"]
-         #vraća 10 redaka
-         top = series.head(n = n)
-         #ispis
-         top
+	data_top = data.head()
+	data_top
 	
     elif choice == "Preporuke":
         st.subheader == "Preporuka tečajeva"
