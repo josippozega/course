@@ -34,7 +34,7 @@ def main():
  	
     if choice == "Početna":
 	st.subheader('Početna')
-	#st.dataframe(df.head(10))
+	st.dataframe(df.head(10))
 	
     elif choice == "Preporuke":
         st.subheader == "Preporuka tečajeva"
