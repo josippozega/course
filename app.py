@@ -33,7 +33,7 @@ def main():
     df = load_data(udemy_course_data.csv)
  	
     if choice == "Početna":
-	st.subheader("Home")
+	#st.subheader("Home")
 	st.dataframe(df.head(10))
 	
     elif choice == "Preporuke":
