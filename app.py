@@ -31,10 +31,16 @@ def main():
 
     df = load_data(udemy_course_data.csv)
 
+	#if choice == "Home":
+		#st.subheader("Home")
+		#st.dataframe(df.head(10))
+		#df = pd.DataFrame({'animal': ['alligator', 'bee', 'falcon', 'lion',
+
+                   #'monkey', 'parrot', 'shark', 'whale', 'zebra']})
 
     if choice == "Početna":
         st.subheader("Početna")
-	st.dataframe(df.head(10))
+	st.dataframe({df.head(10)})
 	
     elif choice == "Preporuke":
         st.subheader == "Preporuka tečajeva"
