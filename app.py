@@ -41,6 +41,7 @@ def main():
                    #'monkey', 'parrot', 'shark', 'whale', 'zebra']})
 
     if choice == "Početna":
+	data = pd.read_csv("udemy_course_data.csv")
 	data_top = data.head()
 	data_top
 	
