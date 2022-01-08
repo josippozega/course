@@ -13,7 +13,7 @@ def main():
     if choice == "Početna":
         st.subheader("Početna")
     elif chice == "Preporuke":
-        st.subheader == "Preporuka tečajeva":
+        st.subheader == "Preporuka tečajeva"
     else:
         st.subheader("O aplikaciji")
         st.text("Aplikacija by Josip Požega, prof.")
