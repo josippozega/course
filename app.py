@@ -1,11 +1,7 @@
-import streamlit as st
-import.streamlit.components.v1 as stc
-
-
+import streamlit as st 
+import streamlit.components.v1 as stc 
 
 #Load EDA
-
-
 
 def main():
     st.title("Aplikacija za ponudu tečaja by Josip Požega, prof.")
